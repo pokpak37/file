@@ -88,7 +88,7 @@ you could say:
 
     requestImages : Cmd Msg
     requestImages =
-      Select.files ["image/png","image/jpg"] ImagesLoaded
+      Select.files ["image/png","image/jpeg"] ImagesLoaded
 
 In this case, we only want PNG and JPG files.
 
